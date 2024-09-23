@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.no-scrollbar::-webkit-scrollbar{
+    display: none;
+    color: #9799aa4d;
+}
+.slideout
+{
+    transition: 2s;animation: slide 0.5s;
+    transform: translateX();
+    
+   
+}
+
+@keyframes slide{
+    from {transform: scaleX(0.1);}
+    to {transform: scaleX(1)}
+  }
