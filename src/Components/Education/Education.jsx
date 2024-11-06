@@ -4,7 +4,7 @@ import EduCard from './EduCard'
 export default function Education() {
   return (
     <div className='min-h-screen bg-my-blue max-w-full relative grid items-start' id='Education'>
-        <h3 className=' text-white text-3xl lg:text-5xl font-bold block text-center pt-8 pl-3 absolute left-5 top-7'>Education</h3>
+        <h3 className=' text-white text-3xl lg:text-4xl 2xl:text-5xl  font-bold block text-center pt-8 pl-3 absolute left-5 top-7'>Education</h3>
         
         <div className='w-full h-20 bg-my-blue  mt-2'>
 

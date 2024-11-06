@@ -27,13 +27,13 @@ export default function Skill_card(props) {
   return (
 
     
-    <div className='min-w-60 lg:min-w-96 p-8 bg-my-grey-l-opacity grid  mr-7 rounded-3xl mb-10 ' onMouseEnter={ShowBatt} onMouseLeave={HideBatt}>
-        <div className='flex'>
+    <div className='min-w-60 lg:min-w-96 p-6 2xl:p-8 bg-my-grey-l-opacity grid  mr-7 rounded-3xl mb-10 ' onMouseEnter={ShowBatt} onMouseLeave={HideBatt}>
+        <div className='flex justify-center'>
 
           {/* skill */}
 
-          <div className='flex justify-center w-4/6 lg:w-full'>
-              <img src={src} alt="" className='w-48' />
+          <div className='flex justify-center w-4/6  2xl:w-full'>
+              <img src={src} alt="" className='w-32 2xl:w-48' />
           </div>
 
         {/* battery charge skill effect */}
@@ -43,7 +43,7 @@ export default function Skill_card(props) {
           
     
         </div>
-        <p className='text-center lg:pr-0 text-white text-lg lg:text-2xl'>{name}</p>
+        <p className='text-center lg:pr-0 text-white text-lg 2xl:text-2xl'>{name}</p>
 
 
         
