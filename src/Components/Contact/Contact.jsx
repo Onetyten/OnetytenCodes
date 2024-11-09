@@ -3,7 +3,7 @@ import ContactLink from './ContactLink'
 
 export default function Contact() {
   return (
-    <div className='min-h-screen grid grid-rows-2' id='Contact'>
+    <div className='min-h-screen grid grid-rows-2 mb-5' id='Contact'>
 
         <div className=' max-w-full relative flex items-start justify-between bg-my-yellow p-7'>
             <div className='flex flex-col justify-center'>
