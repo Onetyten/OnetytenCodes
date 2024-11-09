@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Intro_links from './Intro_links';
 import SplitType from 'split-type';
 import { gsap } from 'gsap';
+import Resume from './Resume.pdf'
 
 export default function Intro_text() {
   const nameRef = useRef(null);
@@ -48,10 +49,14 @@ export default function Intro_text() {
       <p className='w-4/6 lg:w-2/6 text-white mt-10 text-md lg:text-xl'>
         Dynamic professional with a track record of elevating performance through strategic thinking and versatile skills. Excels in both independent and collaborative environments, applying a robust work ethic to swiftly navigate diverse processes and advance organizational goals. Combines resourcefulness with a result-oriented approach, consistently driving growth and operational efficiency to enhance service value and meet evolving company needs.
       </p>
-      {/* <button className='rounded-md border-4 h-14 w-36 text-my-yellow border-my-yellow mt-5'>
-        Contact Me
-      </button> */}
+
       <Intro_links />
+      <a href={Resume} download="Labaeka Adetayo" target='_blank'>
+        <button className='rounded-md border-4 h-14 w-36 text-md lg:text-lg text-center  text-my-yellow border-my-yellow mt-5 hover:bg-my-yellow hover:text-white'>
+          Resume(CV)
+        </button>
+      </a>
+
     </div>
   );
 }

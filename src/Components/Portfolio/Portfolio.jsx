@@ -39,7 +39,7 @@ export default function Portfolio() {
         </div>
 
         <div className='w-full flex justify-center'>
-          <a href="https://github.com/Onetyten">
+          <a href="https://github.com/Onetyten" target='_blank'>
             <button className=' text-my-blue text-md lg:text-lg 2xl:text-xl font-bold text-center 2xl:p-4 lg:p-2  p-3 lg:rounded-xl rounded-sm 2xl:rounded-md  bg-my-yellow hover:text-white'>
               View more
             </button>
