@@ -5,7 +5,7 @@ export default function EduText(props) {
   return (
     <div>
 
-        <p className='text-my-grey text-sm lg:text-xl'>
+        <p className='text-my-grey text-sm lg:text-lg'>
             {p}
         </p>
 

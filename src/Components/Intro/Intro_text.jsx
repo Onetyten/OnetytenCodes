@@ -47,7 +47,7 @@ export default function Intro_text() {
         Front-end Engineer
       </h2>
       <p className='w-4/6 lg:w-2/6 text-white mt-10 text-md lg:text-xl'>
-        Dynamic professional with a track record of elevating performance through strategic thinking and versatile skills. Excels in both independent and collaborative environments, applying a robust work ethic to swiftly navigate diverse processes and advance organizational goals. Combines resourcefulness with a result-oriented approach, consistently driving growth and operational efficiency to enhance service value and meet evolving company needs.
+      I specialize in the JavaScript stack, including HTML, CSS, JavaScript, React, React Native, and more, as detailed below. I invite you to explore my portfolio and discover the passion and dedication that fuel my craft. Whether you are here to check out my latest project or learn more about my expertise in the world of web development and programming in general, I hope you find inspiration in my projects and feel the passion I felt while making them.
       </p>
 
       <Intro_links />

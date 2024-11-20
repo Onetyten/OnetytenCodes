@@ -9,7 +9,7 @@ export default function ContactLink(props) {
               <i class={icon}></i>
             </div>
             
-            <p className='inline  lg:text-2xl text-md  font-normal text-center '>
+            <p className='inline  2xl:text-2xl lg:text-lg text-md  font-normal text-center '>
                 {title}
             </p>
         </a>
