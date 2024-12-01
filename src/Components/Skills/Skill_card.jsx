@@ -43,7 +43,7 @@ export default function Skill_card(props) {
           
     
         </div>
-        <p className='text-center lg:pr-0 text-white text-lg 2xl:text-2xl'>{name}</p>
+        <p className='text-center lg:pr-0 text-white text-lg'>{name}</p>
 
 
         

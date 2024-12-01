@@ -14,7 +14,7 @@ export default function Portfolio() {
 
   return (
     <div className='min-h-screen bg-my-blue max-w-full relative' id='Portfolio'>
-        <h3 className=' text-white text-3xl lg:text-4xl 2xl:text-5xl  font-bold block text-center pt-10 lg:pt-6'>Portfolio</h3>
+        <h3 className=' text-white text-3xl lg:text-4xl 2xl:text-4xl  font-bold block text-center pt-10 lg:pt-6'>Portfolio</h3>
         <div className='lg:flex grid justify-center flex-wrap w-full px-16 pt-16 lg:pt-8 pb-8 lg:pb-4'>
           
                 <PortfolioCard src={MaurysKitchen} name="Maurys Kitchen"desc ="This dynamic restaurant website streamlines order communication, allowing customers to place table orders instantly transmitted to the kitchen. The centralized dashboard enables efficient delivery." link ="https://mauryskitchen.netlify.app/"  />

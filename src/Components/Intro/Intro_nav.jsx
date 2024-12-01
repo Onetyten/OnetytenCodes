@@ -11,7 +11,7 @@ export default function Intro_nav() {
 
   return (
     <div className='relative'>
-      <nav className='flex w-full justify-between pt-10  text-md lg:text-xl items-center' >
+      <nav className='flex w-full justify-between pt-10 text-md items-center' >
 
         <img src="src/assets/Logo.svg" alt="" className='ml-8 w-0'/>
         <ul className='lg:w-full hidden lg:flex justify-around text-my-grey '>

@@ -40,10 +40,10 @@ export default function EduCard(props) {
 
 
         <div className='w-2/5 text-white'>
-          <h1 className='text-my-yellow lg:text-3xl text-xl mb-2'>
+          <h1 className='text-my-yellow lg:text-2xl text-xl mb-2'>
             {title}
           </h1>
-          <h2 className='lg:text-2xl  text-md mb-2'>
+          <h2 className='lg:text-xl  text-md mb-2'>
             {location}
           </h2>
          { pShow && (<EduText p = {p}/>)}

@@ -8,11 +8,11 @@ export default function Contact() {
         <div className=' max-w-full relative flex items-start justify-between bg-my-yellow p-7'>
             <div className='flex flex-col justify-center'>
            
-                <h2 className='text-my-blue lg:text-4xl text-3xl font-bold mb-9'>
+                <h2 className='text-my-blue text-3xl font-bold mb-9'>
                     Get in touch
                 </h2> 
                 <a href="mailto:labaekaabdulrazaq@mail.com">
-                    <button className='bg-my-blue text-my-yellow lg:text-lg text-md lg:p-5 p-3 lg:rounded-3xl rounded-md hover:border-4 border-white'>
+                    <button className='bg-my-blue text-my-yellow text-md lg:p-5 p-3 lg:rounded-3xl rounded-md hover:border-4 border-white'>
                         Contact me
                     </button>
                 </a>
@@ -26,20 +26,20 @@ export default function Contact() {
 
         <div className='grid items-center justify-center  bg-my-blue'>
             <div>
-                <h2 className='2xl:text-4xl text-3xl font-normal text-center text-my-yellow pt-4'>
+                <h2 className=' text-3xl font-normal text-center text-my-yellow pt-4'>
                     Location   
                 </h2>
                 <div className='w-full h-1 bg-my-yellow mb-4'>
 
                 </div>
                 <ul>
-                    <li className='2xl:text-2xl lg:text-lg text-md font-normal text-center text-white pt-4 hover:text-my-grey'>
+                    <li className='lg:text-lg text-md font-normal text-center text-white pt-4 hover:text-my-grey'>
                         Ikeja, Lagos 100001
                     </li>
                 </ul>
             </div>
             <div>
-                <h2 className='2xl:text-4xl text-3xl font-normal text-center text-my-yellow pt-4'>
+                <h2 className='text-3xl font-normal text-center text-my-yellow pt-4'>
                     Connect  
                 </h2>
                 <div className='w-full h-1 bg-my-yellow mb-4'>

@@ -14,7 +14,7 @@ import GithubImg from './github.png'
 export default function Skills() {
   return (
     <div className='min-h-screen bg-my-blue max-w-full relative' id='Skills'>
-      <h3 className=' text-white text-3xl lg:text-4xl 2xl:text-5xl  font-bold block text-center pt-10'>My Skills</h3>
+      <h3 className=' text-white text-3xl lg:text-4xl 2xl:text-4xl  font-bold block text-center pt-10'>My Skills</h3>
       <div className='flex justify-center flex-wrap w-full pl-10 py-10 lg:p-7 2xl:p-16' >
 
         <Skill_card name="React" src ={ReactImg} skillPoint = "h-4/6" percent="80"/>

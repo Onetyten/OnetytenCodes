@@ -43,16 +43,16 @@ export default function Intro_text() {
       <h2 className='mt-20 lg:mt-40 text-white text-2xl font-light lg:text-5xl'>
         I'm <span className='text-my-yellow text-2xl lg:text-5xl font-bold inline' ref={nameRef}>Adetayo Labaeka</span>
       </h2>
-      <h2 className='text-my-grey text-2xl lg:text-5xl font-light mt-5'>
+      <h2 className='text-my-grey text-2xl lg:text-3xl font-light mt-5'>
         Front-end Engineer
       </h2>
-      <p className='w-4/6 lg:w-2/6 text-white mt-10 text-md lg:text-xl'>
+      <p className='w-4/6 lg:w-2/6 text-white mt-10 text-md '>
       I specialize in the JavaScript stack, including HTML, CSS, JavaScript, React, React Native, and more, as detailed below. I invite you to explore my portfolio and discover the passion and dedication that fuel my craft. Whether you are here to check out my latest project or learn more about my expertise in the world of web development and programming in general, I hope you find inspiration in my projects and feel the passion I felt while making them.
       </p>
 
       <Intro_links />
       <a href={Resume} download="Labaeka Adetayo" target='_blank'>
-        <button className='rounded-md border-4 h-14 w-36 text-md lg:text-lg text-center  text-my-yellow border-my-yellow mt-5 hover:bg-my-yellow hover:text-white'>
+        <button className='rounded-md border-4 h-14 w-36 text-md  text-center  text-my-yellow border-my-yellow mt-5 hover:bg-my-yellow hover:text-white'>
           Resume(CV)
         </button>
       </a>
