@@ -1,6 +1,8 @@
 import React from 'react'
 import Skill_card from './Skill_card'
 import ReactImg from './react.png'
+import NodeImg from './Node.png'
+import RnativeImg from './react native.png'
 import HtmlImg from './html.svg'
 import CssImg from './css.svg'
 import JavascriptImg from './javascript.svg'
@@ -18,6 +20,8 @@ export default function Skills() {
       <div className='flex justify-center flex-wrap w-full pl-10 py-10 lg:p-7 2xl:p-16' >
 
         <Skill_card name="React" src ={ReactImg} skillPoint = "h-4/6" percent="80"/>
+        <Skill_card name="React Native" src ={RnativeImg} skillPoint = "h-4/6" percent="80"/>
+        <Skill_card name="NodeJS" src ={NodeImg} skillPoint = "h-4/6" percent="80"/>
         <Skill_card name="HTML" src ={HtmlImg} skillPoint = "h-full" percent="100"/>
         <Skill_card name="CSS" src ={CssImg} skillPoint = "h-full" percent="100"/>
         <Skill_card name="JavaScript" src ={JavascriptImg} skillPoint = "h-4/6" percent="80"/>

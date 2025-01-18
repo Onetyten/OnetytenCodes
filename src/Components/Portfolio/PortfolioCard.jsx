@@ -1,4 +1,3 @@
-import React from 'react'
 import PortfolioText from './PortfolioText'
 import { useState } from 'react'
 
