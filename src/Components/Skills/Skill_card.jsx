@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState } from 'react'
 import Skill_battery from './Skill_battery'
 
