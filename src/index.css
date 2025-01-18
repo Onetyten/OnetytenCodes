@@ -24,3 +24,13 @@
 html {
   background-color: #34353a;
 }
+
+.image-fade {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image-fade.visible {
+  opacity: 1;
+}
+
