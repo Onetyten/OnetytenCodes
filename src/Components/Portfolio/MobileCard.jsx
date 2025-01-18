@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import PropTypes from 'prop-types';
 
 
 
@@ -28,3 +29,8 @@ export default function MobileCard(props) {
     </div>
   )
 }
+
+
+MobileCard.propTypes = {
+  imageSeries: PropTypes.arrayOf(PropTypes.string).isRequired,
+};

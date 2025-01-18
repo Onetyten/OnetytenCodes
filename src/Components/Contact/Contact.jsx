@@ -1,4 +1,3 @@
-import React from 'react'
 import ContactLink from './ContactLink'
 
 export default function Contact() {

@@ -1,5 +1,6 @@
 import PortfolioText from './PortfolioText'
 import { useState } from 'react'
+import PropTypes from 'prop-types'
 
 
 export default function PortfolioCard(props) {
@@ -28,3 +29,11 @@ export default function PortfolioCard(props) {
   
   )
 }
+
+
+PortfolioCard.propTypes = {
+  src: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  desc: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+};

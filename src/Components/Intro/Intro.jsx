@@ -2,7 +2,7 @@ import Intro_nav from './Intro_nav'
 import Intro_text from './Intro_text'
 import Profileimg from './profile_image.png'
 
-export default function () {
+export default function Intro () {
   return (
 
     <div className='min-h-screen bg-my-blue w-full relative' id='Intro'>

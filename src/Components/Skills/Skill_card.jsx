@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Skill_battery from './Skill_battery'
+import PropTypes from 'prop-types'
 
 export default function Skill_card(props) {
   const{name,src,skillPoint,percent} = props
@@ -50,3 +51,10 @@ export default function Skill_card(props) {
     </div>
   )
 }
+
+Skill_card.propTypes = {
+  name: PropTypes.string.isRequired,
+  src: PropTypes.string.isRequired,
+  skillPoint: PropTypes.number.isRequired,
+  percent: PropTypes.number.isRequired,
+};

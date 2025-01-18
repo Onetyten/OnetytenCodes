@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import Intro_links from './Intro_links';
 import SplitType from 'split-type';
 import { gsap } from 'gsap';
@@ -41,7 +41,7 @@ export default function Intro_text() {
   return (
     <div className=' ml-6 lg:ml-24 min-h-screen'>
       <h2 className='mt-20 lg:mt-40 text-white text-2xl font-light lg:text-5xl'>
-        I'm <span className='text-my-yellow text-2xl lg:text-5xl font-bold inline' ref={nameRef}>Adetayo Labaeka</span>
+        I&apos;m <span className='text-my-yellow text-2xl lg:text-5xl font-bold inline' ref={nameRef}>Adetayo Labaeka</span>
       </h2>
       <h2 className='text-my-grey text-2xl lg:text-3xl font-light mt-5'>
         Front-end Engineer

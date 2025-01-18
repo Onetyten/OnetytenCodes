@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import EduText from './EduText'
+import PropTypes from 'prop-types'
 
 export default function EduCard(props) {
   const {date,title,location,p} = props
@@ -52,3 +53,11 @@ export default function EduCard(props) {
     </div>
   )
 }
+
+
+EduCard.propTypes = {
+  date: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  location: PropTypes.number.isRequired,
+  p: PropTypes.number.isRequired,
+};

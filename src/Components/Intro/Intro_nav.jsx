@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 
 
@@ -35,7 +35,7 @@ export default function Intro_nav() {
           </li>
         </ul>
         
-        <i class="fa-solid fa-bars text-white text-2xl lg:hidden pr-7" onClick={toggleNavBar}></i>
+        <i className="fa-solid fa-bars text-white text-2xl lg:hidden pr-7" onClick={toggleNavBar}></i>
       </nav>
 
       {isOPen && (

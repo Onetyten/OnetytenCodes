@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 
 export default function ContactLink(props) {
   const {icon,title,href} = props
@@ -18,3 +18,9 @@ export default function ContactLink(props) {
     
   )
 } 
+
+ContactLink.propTypes = {
+  icon: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  href: PropTypes.number.isRequired,
+};

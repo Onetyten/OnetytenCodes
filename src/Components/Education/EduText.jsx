@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from "prop-types"
 
 export default function EduText(props) {
     const {p} = props
@@ -11,4 +11,8 @@ export default function EduText(props) {
 
     </div>
   )
+}
+
+EduText.propTypes = {
+  p: PropTypes.string.isRequired
 }
