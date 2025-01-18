@@ -1,10 +1,8 @@
-import React from 'react'
 import Intro_nav from './Intro_nav'
 import Intro_text from './Intro_text'
 import Profileimg from './profile_image.png'
 
-export default function 
-() {
+export default function () {
   return (
 
     <div className='min-h-screen bg-my-blue w-full relative' id='Intro'>
@@ -14,7 +12,7 @@ export default function
 
       
 
-      <img src={Profileimg} className='absolute bottom-0 right-0 w-3/6 lg:w-2/6 md:w-3/6 object-cover animate-rise ' alt="" />
+      <img src={Profileimg} className='absolute bottom-0 right-0 w-4/5 lg:w-2/6 md:w-3/6 object-cover animate-rise ' alt="" />
 
 
 

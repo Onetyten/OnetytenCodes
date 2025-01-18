@@ -8,7 +8,7 @@ export default function Intro_links() {
             contacts
           </p>
         </div>
-        <div className='flex flex-col lg:flex-row justify-around w-64 '>
+        <div className='flex flex-row md:flex-col gap-3 lg:gap-0 lg:flex-row justify-around lg:w-64 '>
         <a href="tel:+2349155073769">
           <i className="fa-solid fa-phone text-md lg:text-xl text-white hover:text-my-grey"></i></a>
         <a href="mailto:labaekaabdulrazaq@gmail.com">
