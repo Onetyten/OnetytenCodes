@@ -39,7 +39,7 @@ export default function Intro_nav() {
       </nav>
 
       {isOPen && (
-        < div className=' grid gap-y-4 justify-center text-white py-5 bg-my-grey bg-opacity-25 backdrop-blur-lg rounded-xl text-lg absolute w-full z-10 lg:hidden'>
+        < div className=' grid gap-y-4 justify-center text-white py-5 bg-my-grey bg-opacity-25 backdrop-blur-lg rounded-xl text-sm absolute w-full z-10 lg:hidden'>
           <Link to="#Intro" className='  hover:text-white  text-center'>
             Home
           </Link>
