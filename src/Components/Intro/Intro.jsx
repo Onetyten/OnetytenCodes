@@ -12,7 +12,7 @@ export default function Intro () {
 
       
 
-      <img src={Profileimg} className='absolute bottom-0 right-0 w-4/5 lg:w-2/6 md:w-3/6 object-cover animate-rise ' alt="" />
+      <img src={Profileimg} className='absolute bottom-0 right-0 w-3/6 lg:w-2/6 md:w-3/6 object-cover animate-rise ' alt="" />
 
 
 
