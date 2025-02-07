@@ -8,6 +8,9 @@ export default function MobileCard(props) {
     const [numberIndex,setNumberIndex] = useState(0)
     const {imageSeries} = props
     const [isVisible, setIsVisible] = useState(true);
+    function getRandomDelay(min, max) {
+      return Math.floor(Math.random() * (max - min)) + min;
+    }
 
     useEffect(() => {
       const timer = setInterval(() => {
@@ -15,8 +18,8 @@ export default function MobileCard(props) {
         setTimeout(() => {
           setNumberIndex((prevIndex) => (prevIndex + 1) % imageSeries.length); // Change image
           setIsVisible(true);
-        }, 500); 
-      }, 3500);
+        }, 100); 
+      }, getRandomDelay(1500,3000));
   
       return () => clearInterval(timer); // Clean up interval
     }, [imageSeries]);
@@ -25,7 +28,7 @@ export default function MobileCard(props) {
 
   return (
     <div>
-        <img src={imageSeries[numberIndex]} alt="" className={`w-72 image-fade ${isVisible ? 'visible' : ''}`} />
+        <img src={imageSeries[numberIndex]} alt="" className={`w-72 hover:scale-105 image-fade ${isVisible ? 'visible' : ''}`} />
     </div>
   )
 }

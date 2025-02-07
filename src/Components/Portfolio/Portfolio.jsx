@@ -29,12 +29,49 @@ import Liftimg19 from './Mobile screenshots/lift mobile/Screenshot_20250117-1620
 
 
 
+import darkLiftImg1 from './Mobile screenshots/lift mobile/dark/1.png'
+import darkLiftImg2 from './Mobile screenshots/lift mobile/dark/2.png'
+import darkLiftImg3 from './Mobile screenshots/lift mobile/dark/3.png'
+import darkLiftImg4 from './Mobile screenshots/lift mobile/dark/4.png'
+import darkLiftImg5 from './Mobile screenshots/lift mobile/dark/5.png'
+import darkLiftImg6 from './Mobile screenshots/lift mobile/dark/6.png'
+import darkLiftImg7 from './Mobile screenshots/lift mobile/dark/7.png'
+import darkLiftImg8 from './Mobile screenshots/lift mobile/dark/8.png'
+import darkLiftImg9 from './Mobile screenshots/lift mobile/dark/9.png'
+import darkLiftImg10 from './Mobile screenshots/lift mobile/dark/10.png'
+
+
+import lightLiftImg1 from './Mobile screenshots/lift mobile/light/1.png'
+import lightLiftImg2 from './Mobile screenshots/lift mobile/light/2.png'
+import lightLiftImg3 from './Mobile screenshots/lift mobile/light/3.png'
+import lightLiftImg4 from './Mobile screenshots/lift mobile/light/4.png'
+import lightLiftImg5 from './Mobile screenshots/lift mobile/light/5.png'
+import lightLiftImg6 from './Mobile screenshots/lift mobile/light/6.png'
+import lightLiftImg7 from './Mobile screenshots/lift mobile/light/7.png'
+import lightLiftImg8 from './Mobile screenshots/lift mobile/light/8.png'
+import lightLiftImg9 from './Mobile screenshots/lift mobile/light/9.png'
+import lightLiftImg10 from './Mobile screenshots/lift mobile/light/10.png'
+import lightLiftImg11 from './Mobile screenshots/lift mobile/light/11.png'
+import lightLiftImg12 from './Mobile screenshots/lift mobile/light/12.png'
+import lightLiftImg13 from './Mobile screenshots/lift mobile/light/13.png'
+import lightLiftImg14 from './Mobile screenshots/lift mobile/light/14.png'
+
+
+
+
 export default function Portfolio() {
   const LiftImageSeries = [
     Liftimg1, Liftimg2, Liftimg3, Liftimg4,
     Liftimg6, Liftimg7, Liftimg8, Liftimg9, Liftimg10,
     Liftimg11, Liftimg12, Liftimg13, Liftimg14, Liftimg15,
     Liftimg16, Liftimg17, Liftimg18, Liftimg19,
+  ];
+  const LiftDarkImages = [
+    darkLiftImg1,darkLiftImg2,darkLiftImg3,darkLiftImg4,darkLiftImg5,darkLiftImg6,darkLiftImg7,darkLiftImg8,darkLiftImg9,darkLiftImg10
+  ];
+
+  const LiftLightImages = [
+    lightLiftImg1,lightLiftImg2,lightLiftImg3,lightLiftImg4,lightLiftImg5,lightLiftImg6,lightLiftImg7,lightLiftImg8,lightLiftImg9,lightLiftImg10,lightLiftImg11,lightLiftImg12,lightLiftImg13,lightLiftImg14,
   ];
 
 
@@ -70,7 +107,9 @@ export default function Portfolio() {
 
         <h3 className=' text-my-yellow text-2xl lg:text-3xl 2xl:text-3xl  font-bold block text-center py-10 lg:py-5'>Mobile applications</h3>
         <div className='lg:flex grid justify-center flex-wrap w-full px-16 pt-0 lg:pt-0 pb-8 lg:pb-10'>
-          <MobileCard imageSeries = {LiftImageSeries}/>
+          {/* <MobileCard imageSeries = {LiftImageSeries}/> */}
+          <MobileCard imageSeries = {LiftDarkImages}/>
+          <MobileCard imageSeries = {LiftLightImages}/>
         </div>
         
 
