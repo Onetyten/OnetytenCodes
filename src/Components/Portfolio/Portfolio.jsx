@@ -24,8 +24,6 @@ import Liftimg14 from './Mobile screenshots/lift mobile/Screenshot_20250117-1617
 import Liftimg15 from './Mobile screenshots/lift mobile/Screenshot_20250117-161746.png'
 import Liftimg16 from './Mobile screenshots/lift mobile/Screenshot_20250117-161916.png'
 import Liftimg17 from './Mobile screenshots/lift mobile/Screenshot_20250117-161932.png'
-import Liftimg18 from './Mobile screenshots/lift mobile/Screenshot_20250117-161943.png'
-import Liftimg19 from './Mobile screenshots/lift mobile/Screenshot_20250117-162005.png'
 
 
 

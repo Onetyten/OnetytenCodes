@@ -12,6 +12,7 @@ export default function MobileCard(props) {
       return Math.floor(Math.random() * (max - min)) + min;
     }
 
+    // timer
     useEffect(() => {
       const timer = setInterval(() => {
         setIsVisible(false); 
