@@ -7,26 +7,6 @@ import Mori from './MorieRecipee.png'
 import Stock from './Stock.png'
 import MobileCard from './MobileCard'
 
-
-import Liftimg1 from './Mobile screenshots/lift mobile/Screenshot_20250117-161131.png'
-import Liftimg2 from './Mobile screenshots/lift mobile/Screenshot_20250117-161234.png'
-import Liftimg3 from './Mobile screenshots/lift mobile/Screenshot_20250117-161354.png'
-import Liftimg4 from './Mobile screenshots/lift mobile/Screenshot_20250117-161427.png'
-import Liftimg6 from './Mobile screenshots/lift mobile/Screenshot_20250117-161539.png'
-import Liftimg7 from './Mobile screenshots/lift mobile/Screenshot_20250117-161554.png'
-import Liftimg8 from './Mobile screenshots/lift mobile/Screenshot_20250117-161620.png'
-import Liftimg9 from './Mobile screenshots/lift mobile/Screenshot_20250117-161642.png'
-import Liftimg10 from './Mobile screenshots/lift mobile/Screenshot_20250117-161652.png'
-import Liftimg11 from './Mobile screenshots/lift mobile/Screenshot_20250117-161704.png'
-import Liftimg12 from './Mobile screenshots/lift mobile/Screenshot_20250117-161713.png'
-import Liftimg13 from './Mobile screenshots/lift mobile/Screenshot_20250117-161726.png'
-import Liftimg14 from './Mobile screenshots/lift mobile/Screenshot_20250117-161737.png'
-import Liftimg15 from './Mobile screenshots/lift mobile/Screenshot_20250117-161746.png'
-import Liftimg16 from './Mobile screenshots/lift mobile/Screenshot_20250117-161916.png'
-import Liftimg17 from './Mobile screenshots/lift mobile/Screenshot_20250117-161932.png'
-
-
-
 import darkLiftImg1 from './Mobile screenshots/lift mobile/dark/1.png'
 import darkLiftImg2 from './Mobile screenshots/lift mobile/dark/2.png'
 import darkLiftImg3 from './Mobile screenshots/lift mobile/dark/3.png'
@@ -58,12 +38,6 @@ import lightLiftImg14 from './Mobile screenshots/lift mobile/light/14.png'
 
 
 export default function Portfolio() {
-  const LiftImageSeries = [
-    Liftimg1, Liftimg2, Liftimg3, Liftimg4,
-    Liftimg6, Liftimg7, Liftimg8, Liftimg9, Liftimg10,
-    Liftimg11, Liftimg12, Liftimg13, Liftimg14, Liftimg15,
-    Liftimg16, Liftimg17, Liftimg18, Liftimg19,
-  ];
   const LiftDarkImages = [
     darkLiftImg1,darkLiftImg2,darkLiftImg3,darkLiftImg4,darkLiftImg5,darkLiftImg6,darkLiftImg7,darkLiftImg8,darkLiftImg9,darkLiftImg10
   ];
